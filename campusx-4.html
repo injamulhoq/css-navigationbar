@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campus{X}</title>
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="description" content="CampusX">
+	<meta name="keywords" content="CampusX">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="">
+	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	color: #0B9DF8 ;
+	height: 30px;
+	font-size: 50px;
+	text-shadow: 1px 1px #0BF8EB ;
+	background-image: url("background.jpg");
+	background-size: cover;
+	text-align: center;
+	display: block;
+}
+a{
+	text-decoration: None;
+	color: #307e82;
+	transition: 0.5;
+}
+a:hover{
+	background-color: #307e82;
+	color: #050801;
+	box-shadow: 0 0 5px #307e82,
+	0 0 25px #307e82,
+	0 0 50px #307e82,
+	0 0 200px #307e82;
+}
+a:active{
+	color: blue;
+}
+
+main{
+	padding: 40px;
+}
+
+.navbar{
+	height: 50px;
+	font-family: 'Crimson Text', serif;
+	font-size: 23px;
+	padding: 10px; 
+	background:#0d0175;
+	position: sticky;
+	top:0px;
+	background-size: 100px;
+	box-shadow: 5px 5px #ffff80;
+}
+.navbar ul{
+	margin: 80px;
+	display: inline;
+
+}
+
+.navbar li{
+	display: inline;
+	padding-left: 50px;
+	padding-top: 40px; 
+
+	
+}
+
+.dashboard1{
+	display: None;
+	padding: 10px;
+
+}
+
+
+.navbar li:hover .dashboard1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 135px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .dashboard1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .dashboard1 ul li{
+
+
+}
+
+
+.timeline1{
+	display: None;
+	padding: 10px;
+
+}
+
+.navbar li:hover .timeline1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 300px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .timeline1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .timeline1 ul li{
+
+
+}
+
+.mycourse1{
+	display: None;
+	padding: 10px;
+
+}
+
+.navbar li:hover .mycourse1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 505px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .mycourse1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .mycourse1 ul li{
+
+
+}
+
+.myclass1{
+	display: None;
+	padding: 10px;
+
+}
+
+.navbar li:hover .myclass1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 705px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .myclass1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .myclass1 ul li{
+
+
+}
+
+.events1{
+	display: None;
+	padding: 10px;
+
+}
+
+.navbar li:hover .events1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 750px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .events1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .events1 ul li{
+
+
+}
+
+.myprofile1{
+	display: None;
+	padding: 10px;
+
+}
+
+.navbar li:hover .myprofile1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 790px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .myprofile1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .myprofile1 ul li{
+
+
+}
+
+.logout1{
+	display: None;
+	padding: 10px;
+
+}
+
+.navbar li:hover .logout1{
+	display: block;
+	position: absolute;
+	background-color: #F8970B  ;
+	padding-left: 0px;
+	
+	margin-left: 1220px;
+	margin-top: 28px;
+
+}
+.navbar li:hover .logout1 ul{
+	
+	
+	padding: 0px;
+	margin: 0px;
+}
+.navbar li:hover .logout1 ul li{
+
+
+}
+
+.home1{
+	display: None;
+	position: absolute;
+}
+
+.About1{
+	display: None;
+	position: absolute;
+}
+.services1{
+	display: None;
+	position: absolute;
+}
+.contact1{
+	display: None;
+	position: absolute;
+}
+
+.home:hover .home1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.home:hover .home1 ul{
+	margin-top: 0px;
+	
+}
+.home:hover .home1 ul li{
+	display: block;
+	
+	padding: 10px;
+}
+
+.about:hover .About1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 150px;
+
+}
+.about:hover .About1 ul{
+	margin-top: 0px;
+	
+}
+.about:hover .About1 ul li{
+	display: block;
+	padding: 10px;
+}
+.services:hover .services1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 265px;
+
+}
+.services:hover .services1 ul{
+	margin-top: 0px;
+	
+}
+.services:hover .services1 ul li{
+	display: block;
+	padding: 10px;
+}
+.contact:hover .contact1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 430px;
+
+}
+.contact:hover .contact1 ul{
+	margin-top: 0px;
+	
+}
+.contact:hover .contact1 ul li{
+	display: block;
+	padding: 10px;
+}
+.last1{
+	display: None;
+	position: absolute;
+}
+.issue1{
+	display: None;
+	position: absolute;
+}
+.next1{
+	display: None;
+	position: absolute;
+}
+
+.last:hover .last1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.last:hover .last1 ul{
+	margin-top: 0px;
+}
+.last:hover .last1 ul li{
+	display: block;
+	padding: 10px;
+
+}
+.issue:hover .issue1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+.issue:hover .issue1 ul{
+	margin-top: 0px;
+}
+.issue:hover .issue1 ul li{
+	display: block;
+	padding: 10px;
+}
+
+.next:hover .next1{
+	display: block;
+	position: absolute;
+	background-color: #b8c0d6;
+	margin-top: 10px;
+	margin-left: 365px;
+}
+.next:hover .next1 ul{
+	margin-top: 0px;
+}
+.next:hover .next1 ul li{
+	display: block;
+	padding: 10px;
+}
+
+
+
+
+.box{
+	margin: 10px;
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+	border: 1px #000 solid;
+	width: 600px;
+	height: 800px;
+	overflow-y: scroll;
+	padding: 50px;
+	background-color: white;
+	margin-top: 200px;
+	margin-left: 100px;
+
+}
+
+
+	</style>
+	
+</head>
+<body>
+	<div>
+		<a href="#"> <main class="main">CampusX</main></a>
+	</div>
+
+	<div class="navbar">
+		<ul>
+			<li>
+
+				<a href="#">DASHBOARD</a>
+
+				<div class="dashboard1">
+					<ul>
+						<li class="home"><a href="">Home</a>
+							<div class="home1">
+							<ul>
+								<li><a href="#">Home 1</a></li>
+								<li><a href="#">Home 2</a></li><li>	
+							</ul>
+							</div>
+
+
+						</li>
+						<li class="about"><a href="#">About</a>
+							<div class="About1">
+							<ul >
+								<li><a href="#">About 1</a></li>
+								<li><a href="#">About 2</a></li><li>
+							
+						    </ul>
+						    </div>
+
+						</li>
+						<li class="services"><a href="#">Services</a>
+							<div class="services1">
+							<ul>
+								<li><a href="#"> Services 1</a></li>
+								<li><a href="#"> Services 2</a></li>
+							</ul>
+
+							</div>
+						</li>
+						<li class="contact"><a href="#">Contact</a>
+							<div class="contact1">
+							<ul>
+								<li><a href="#"> Mobile</a></li>
+								<li><a href="#"> Email</a></li>
+							</ul>
+
+							</div>
+						</li>
+						
+					</ul>		
+			</li>
+
+
+			<li><a href="#">TIMELINE</a>
+				<div class="timeline1">
+					<ul>
+						<li class="last"><a href="#">Last Date</a>
+							<div class="last1">
+								<ul>
+								<li><a href="#">Last Date1</a></li>
+								<li><a href="#">Last Date2</a></li>
+								</ul>
+							</div>
+
+						</li>
+						<li class="issue"><a href="#">Issue Date</a>
+							<div class="issue1">
+								<ul>
+									<li><a href="#">Issue Date1</a></li>
+									<li><a href="#">Issue Date2</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="next"><a href="#">Next Date</a>
+						<div class="next1">
+							<ul>
+								<li><a href="#">Next Date1</a></li></li>
+								<li><a href="#">Next Date2</a></li></li>
+							</ul>
+						</div>
+						</li>
+					</ul>
+				</div>
+			</li>
+
+			<li><a href="#">MY COURSE</a><div class="mycourse1">
+					<ul>
+						<li><a href="">HTML</a></li>
+						<li><a href="">CSS</a></li>
+						<li><a href="">JAVA</a></li>
+						<li><a href="">BOOTSTRAP</a></li>
+						<li><a href="">MYSQL</a></li>
+					
+					</ul>
+				</div></li>
+			<li><a href="#">MY CLASS</a><div class="myclass1">
+					<ul>
+						<li><a href="">Sec - A</a></li>
+						<li><a href="">Sec - B</a></li>
+						<li><a href="">Sec - C</a></li>
+						
+				</div></li>
+			<li><a href="#">EVENTS</a><div class="events1">
+					<ul>
+						<li><a href="">Game </a></li>
+						<li><a href="">Quiz</a></li>
+						<li><a href="">Function</a></li>
+						
+				</div></li>
+			<li><a href="#">MY PROFILE</a><div class="myprofile1">
+					<ul>
+						
+						<li><a href="">Profile Photo</a></li>
+						<li><a href="">Name</a></li>
+						<li><a href="">Passing Year</a></li>
+		
+					</ul>
+				</div></li>
+			<li><a href="#">LOG OUT</a><div class="logout1">
+					<ul>
+
+						<li><a href="">Yes</a></li>
+						<li><a href="">No</a></li>
+						
+					</ul>
+				</div></li>
+
+
+		</ul>
+	</div>
+
+	
+	<div class="box">
+		<p>
+						Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development.
+
+Among web professionals, "web development" usually refers to the main Non-design aspects of building websites: writing markup and coding.[2] Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.
+
+For larger organizations and businesses, web development teams can consist of hundreds of people (web developers) and follow standard methods like Agile methodologies while developing websites. Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of web developer specialization: front-end developer, back-end developer, and full-stack developer. Front-end developers are responsible for behavior and visuals that run in the user browser, while back-end developers deal with the servers 
+Since the commercialization of the web, web development has been a growing industry. The growth of this industry is being driven by businesses wishing to use their website to advertise and sell products and services to customers.[3]
+
+There are many open source tools for web development such as BerkeleyDB, GlassFish, LAMP (Linux, Apache, MySQL, PHP) stack and Perl/Plack. This has kept the cost of learning web development to a minimum. ANother contributing factor to the growth of the industry has been the rise of easy-to-use WYSIWYG web-development software, such as Adobe Dreamweaver, BlueGriffon and Microsoft Visual Studio. KNowledge of HyperText Markup Language (HTML) or of programming languages is still required to use such software, but the basics can be learned and implemented quickly.
+
+An ever-growing set of tools and techNologies have helped developers build more dynamic and interactive websites. Further, web developers Now help to deliver applications as web services which were traditionally only available as applications on a desk-based computer. This has allowed for many opportunities to decentralize information and media distribution. Examples can be seen with the rise of cloud services such as Adobe Creative Cloud, Dropbox and Google Drive. These web services allow users to interact with applications from many locations, instead of being tied to a specific workstation for their application environment.
+
+Examples of dramatic transformation in communication and commerce led by web development include e-commerce. Online auction sites such as eBay have changed the way consumers find and purchase goods and services. Online retailers such as Amazon.com and Buy.com (among many others) have transformed the shopping and bargain-hunting experience for many consumers. ANother example of transformative communication led by web development is the blog. Web applications such as WordPress and Movable Type have created blog-environments for individual websites. The increased usage of open-source content management systems and enterprise content management systems has extended web development's impact at online interaction and communication.
+
+Web development has also impacted personal networking and marketing. Websites are No longer simply tools for work or for commerce, but serve more broadly for communication and social networking. Web sites such as Facebook and Twitter provide users with a platform to communicate and organizations with a more personal and interactive way to engage the public.
+		</p>
+	
+	
+	
+
+	
+
+</body>
+</html>
+
